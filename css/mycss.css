@@ -1,0 +1,94 @@
+#landingpage{
+    background-image:
+    url(../image/japan.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    text-align: center;
+    width: 100%
+    
+}
+#header{
+    font-family: 'Oswald', sans-serif;
+    font-size:88pt;
+    text-align:center;
+    padding-top: 100px;
+} 
+#intro{
+    font-family: 'Oswald', sans-serif;
+    font-size:31pt;
+    color: midnightblue;
+    text-align:center;
+} 
+
+/* navbar */
+.navbar a:hover{
+    background-color: antiquewhite;
+}
+
+.navbar{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar to the top of the page */
+    width: 100%; /* Full width */
+    z-index: 100;
+    font-size: 30px;
+    
+}
+
+/* Links inside the navbar */
+.navbar a{
+    text-align: center;
+    
+    display: block;
+    color: black;
+    float: inherit;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    background-color: whitesmoke;
+}
+
+.paragraph{
+    text-align:  center; 
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 25pt;
+    color: white;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-shadow: 1px 1px black;
+}
+
+.socialmedia{
+    margin: 0 auto;
+    text-align: center;
+    height: 75vh;
+
+}
+#linkedin {
+    padding-top: 20px;
+    color: dodgerblue;
+    
+}
+#facebook {
+    padding-top: 20px;
+    color: darkblue;
+    
+}
+#instagram {
+    padding-top: 20px;
+    color: rebeccapurple;
+    
+}
+html body{
+    margin:0;
+    padding: 0;
+}

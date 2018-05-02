@@ -1,0 +1,102 @@
+#aboutme{
+    background-image:
+    url(../image/edit.2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 88vh;
+}
+#header{
+    font-family: 'Oswald', sans-serif;
+    font-size:80pt;
+    text-align:center;
+    padding-top: 400px;
+    color:burlywood
+} 
+
+/* navbar */
+.navbar a:hover{
+    background-color: antiquewhite;
+}
+
+.navbar{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    overflow: hidden;
+    color: aliceblue;
+    background-color: whitesmoke;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar to the top of the page */
+    width: 100%; /* Full width */
+    z-index: 100;
+    font-size: 30px;
+}
+
+/* Links inside the navbar */
+.navbar a{
+    
+    display: block;
+    color: black;
+    float: inherit;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.briefintroduction{
+    text-align:  center; 
+    font-family: 'Oswald', sans-serif;
+    font-size: 25pt;
+    text-align: center;
+    margin: 0 auto;
+    text-shadow: 1px 1px black;
+}
+
+.socialmedia{
+    margin-top: auto;
+    text-align: center;
+    height: 10vh;
+
+}
+#linkedin {
+    padding-top: 20px;
+    color: dodgerblue;
+    
+}
+#facebook {
+    padding-top: 20px;
+    color: darkblue;
+    
+}
+#instagram {
+    padding-top: 20px;
+    color: blueviolet;
+    
+}
+.briefintroduction{
+    height: 100vh;
+    background-color: floralwhite;
+    background-attachment: fixed;
+    
+}
+
+.briefintroduction h1{
+    text-align: justify; 
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 25pt;
+    height: 11vh;
+    background-color: floralwhite;
+    margin-top: inherit;
+    padding-top: 20px;
+}
+html body{
+    margin:0;
+    padding: 0;
+}
+img{
+    height: 350px;
+    width: 500px;
+    border-radius: 100px;
+}
