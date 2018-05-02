@@ -40,7 +40,10 @@
     display: block;
     text-align: center;
     position:relative;
-    padding: 10px 120px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-bottom: 13px;
+    width: 25%;
     color:black;
     text-decoration:none;
 }
