@@ -1,0 +1,44 @@
+#portfolio{
+    background-image: url(../image/4284.JPG);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    text-align: center;
+    
+}
+
+.navbar a:hover{
+    background-color:antiquewhite;
+}
+
+.navbar{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    overflow: hidden;
+    position: relative; /* Set the navbar to fixed position */
+    width: 100%; /* Full width */
+    z-index: 100;
+    font-size: 31px;
+    
+    
+}
+
+/* Links inside the navbar */
+.navbar a{
+   display: block;
+    text-align: center;
+    position:relative;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-bottom: 13px;
+    width: 25%;
+    color:black;
+    text-decoration:none;
+}
+
+h1{
+    font-size: 88pt;
+    color:azure
+}
